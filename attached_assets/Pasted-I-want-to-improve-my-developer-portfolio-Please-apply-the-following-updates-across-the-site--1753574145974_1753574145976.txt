@@ -1,0 +1,61 @@
+I want to improve my developer portfolio. Please apply the following updates across the site:
+
+---
+
+🧑‍💼 Add Professional Experience (to Experience/Work section)
+
+1. **Faculty – Aptech Gulshan-e-Hadeed**
+   - 📅 August 2024 – June 2025
+   - Taught HTML, CSS, JavaScript, PHP, and MySQL.
+   - Introduced Laravel basics including MVC structure and Blade templating.
+   - Supervised student projects and reviewed UI/UX prototypes.
+   - Focused on design thinking and hands-on skills.
+
+2. **Teaching Assistant – Aptech Metro Star Gate**
+   - 📅 September 2023 – March 2024
+   - Assisted instructors in web development lab sessions.
+   - Helped students with HTML, CSS, JavaScript, and Figma.
+   - Provided hands-on support and guidance during practicals.
+
+---
+
+🧾 Add Resume Download Button
+
+- Add a visible "Download Resume" button in the header or contact section.
+- When clicked, it should download `resume.pdf` (you can link it to a placeholder file for now).
+
+---
+
+✉️ Activate Contact Form
+
+- Make the existing form functional using [Formspree.io].
+- Add a real or placeholder Formspree action link so it works.
+- Example: `<form action="https://formspree.io/f/your-id" method="POST">`
+
+---
+
+🖼️ Insert Project Screenshots
+
+- In the project/cards section, include example placeholder screenshots (use `/images/project1.jpg`, etc.).
+- Use Tailwind utility classes to make sure images are responsive and cleanly styled.
+- If no images exist yet, use dummy `src="https://via.placeholder.com/300x200"`.
+
+---
+
+📷 Optimize Profile Image
+
+- Make sure `profile.jpg` inside `/images/` is styled with Tailwind (e.g. `rounded-full`, `w-32`, `h-32`).
+- Add `alt` text for accessibility.
+
+---
+
+📌 General Notes
+
+- Don’t change the layout too much — just enhance what's already there.
+- Use semantic HTML and Tailwind for styling.
+- Keep JavaScript minimal and clean (no frameworks).
+- Don't add extra sections like blog, testimonials, or filtering yet.
+
+---
+
+Please complete the changes above and update the portfolio accordingly.
