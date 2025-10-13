@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rizwan Ullah - Resume</title>
+    <title>Rizwan Ullah - Professional Resume</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <style>
         * {
@@ -14,286 +14,335 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #ffffff;
-            color: #1f2937;
+            background: #f5f5f5;
+            color: #2c3e50;
             line-height: 1.6;
+            padding: 20px;
         }
 
-        .container {
-            max-width: 900px;
+        .resume-container {
+            max-width: 850px;
             margin: 0 auto;
             background: white;
-            box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
         }
 
-        .header {
-            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+        .header-section {
+            background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
             color: white;
-            padding: 50px 60px;
+            padding: 40px;
             text-align: center;
         }
 
-        .header h1 {
-            font-size: 2.8em;
-            margin-bottom: 10px;
+        .header-section h1 {
+            font-size: 2.5em;
+            margin-bottom: 8px;
             font-weight: 700;
-            letter-spacing: 1px;
+            letter-spacing: 2px;
         }
 
-        .header .title {
-            font-size: 1.3em;
+        .header-section .job-title {
+            font-size: 1.2em;
+            margin-bottom: 20px;
             opacity: 0.95;
-            margin-bottom: 25px;
             font-weight: 400;
         }
 
-        .contact-bar {
+        .contact-info {
             display: flex;
             justify-content: center;
-            gap: 30px;
+            gap: 25px;
             flex-wrap: wrap;
             margin-top: 20px;
-        }
-
-        .contact-item {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            font-size: 0.95em;
-        }
-
-        .contact-item i {
-            font-size: 1.1em;
-        }
-
-        .content {
-            padding: 50px 60px;
-        }
-
-        .section {
-            margin-bottom: 40px;
-        }
-
-        .section-title {
-            color: #2563eb;
-            font-size: 1.6em;
-            font-weight: 700;
-            margin-bottom: 25px;
-            padding-bottom: 10px;
-            border-bottom: 3px solid #2563eb;
-            display: flex;
-            align-items: center;
-            gap: 12px;
-        }
-
-        .section-title i {
             font-size: 0.9em;
         }
 
-        .summary {
+        .contact-info .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .main-content {
+            padding: 40px;
+        }
+
+        .section {
+            margin-bottom: 35px;
+        }
+
+        .section-title {
+            color: #1e3a8a;
+            font-size: 1.5em;
+            font-weight: 700;
+            margin-bottom: 20px;
+            padding-bottom: 8px;
+            border-bottom: 3px solid #2563eb;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section-title i {
+            font-size: 1em;
+            color: #2563eb;
+        }
+
+        .professional-summary {
             color: #4b5563;
-            font-size: 1.05em;
+            font-size: 1em;
             line-height: 1.8;
             text-align: justify;
-        }
-
-        .experience-item,
-        .education-item {
-            margin-bottom: 30px;
-            padding-left: 20px;
-            border-left: 3px solid #e5e7eb;
-        }
-
-        .experience-item:last-child,
-        .education-item:last-child {
-            margin-bottom: 0;
-        }
-
-        .item-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 10px;
-            flex-wrap: wrap;
-        }
-
-        .item-title {
-            font-size: 1.25em;
-            font-weight: 700;
-            color: #1f2937;
-        }
-
-        .item-company {
-            font-size: 1.05em;
-            color: #2563eb;
-            font-weight: 600;
-            margin-bottom: 5px;
-        }
-
-        .item-duration {
-            color: #6b7280;
-            font-size: 0.95em;
-            font-weight: 500;
-        }
-
-        .item-description {
-            color: #4b5563;
-            margin-top: 12px;
-            line-height: 1.7;
-        }
-
-        .item-description ul {
-            list-style: none;
-            margin-top: 8px;
-        }
-
-        .item-description li {
-            padding-left: 25px;
-            position: relative;
-            margin-bottom: 8px;
-        }
-
-        .item-description li:before {
-            content: "▸";
-            color: #2563eb;
-            position: absolute;
-            left: 5px;
-            font-weight: bold;
-        }
-
-        .skills-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 25px;
-        }
-
-        .skill-category {
             background: #f9fafb;
             padding: 20px;
             border-radius: 8px;
             border-left: 4px solid #2563eb;
         }
 
-        .skill-category h4 {
+        .timeline-item {
+            margin-bottom: 25px;
+            padding-left: 25px;
+            border-left: 2px solid #e5e7eb;
+            position: relative;
+        }
+
+        .timeline-item:before {
+            content: "";
+            position: absolute;
+            left: -6px;
+            top: 8px;
+            width: 12px;
+            height: 12px;
+            background: #2563eb;
+            border-radius: 50%;
+            border: 3px solid white;
+            box-shadow: 0 0 0 2px #2563eb;
+        }
+
+        .timeline-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .timeline-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 8px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .job-title-text {
+            font-size: 1.15em;
+            font-weight: 700;
+            color: #1f2937;
+        }
+
+        .company-name {
+            font-size: 1em;
             color: #2563eb;
-            font-size: 1.1em;
-            margin-bottom: 15px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .duration {
+            color: #6b7280;
+            font-size: 0.9em;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+
+        .job-description {
+            color: #4b5563;
+            margin-top: 10px;
+            line-height: 1.7;
+        }
+
+        .job-description ul {
+            list-style: none;
+            margin-top: 8px;
+        }
+
+        .job-description li {
+            padding-left: 20px;
+            position: relative;
+            margin-bottom: 6px;
+        }
+
+        .job-description li:before {
+            content: "▸";
+            color: #2563eb;
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .skill-box {
+            background: #f9fafb;
+            padding: 18px;
+            border-radius: 8px;
+            border-left: 4px solid #2563eb;
+        }
+
+        .skill-box h4 {
+            color: #1e3a8a;
+            font-size: 1em;
+            margin-bottom: 12px;
             font-weight: 700;
             display: flex;
             align-items: center;
             gap: 8px;
         }
 
-        .skill-category h4 i {
-            font-size: 0.9em;
-        }
-
-        .skill-tags {
+        .skill-list {
             display: flex;
             flex-wrap: wrap;
             gap: 8px;
         }
 
-        .skill-tag {
+        .skill-badge {
             background: white;
             color: #1f2937;
-            padding: 6px 14px;
-            border-radius: 20px;
-            font-size: 0.9em;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.85em;
             border: 1px solid #e5e7eb;
             font-weight: 500;
         }
 
-        .projects-grid {
-            display: grid;
-            gap: 20px;
-        }
-
-        .project-card {
+        .project-item {
             background: #f9fafb;
-            padding: 25px;
+            padding: 20px;
             border-radius: 8px;
+            margin-bottom: 15px;
             border-left: 4px solid #2563eb;
         }
 
-        .project-title {
-            font-size: 1.2em;
-            font-weight: 700;
-            color: #1f2937;
-            margin-bottom: 10px;
+        .project-item:last-child {
+            margin-bottom: 0;
         }
 
-        .project-description {
+        .project-name {
+            font-size: 1.1em;
+            font-weight: 700;
+            color: #1f2937;
+            margin-bottom: 8px;
+        }
+
+        .project-desc {
             color: #4b5563;
-            margin-bottom: 15px;
+            margin-bottom: 12px;
             line-height: 1.7;
         }
 
-        .project-tech {
+        .tech-stack {
             display: flex;
             flex-wrap: wrap;
-            gap: 8px;
+            gap: 6px;
         }
 
-        .tech-tag {
+        .tech-badge {
             background: #2563eb;
             color: white;
-            padding: 4px 12px;
+            padding: 4px 10px;
             border-radius: 4px;
-            font-size: 0.85em;
+            font-size: 0.8em;
             font-weight: 500;
         }
 
-        .footer {
+        .online-links {
+            display: flex;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+
+        .online-links .link-item {
+            color: #4b5563;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .online-links .link-item i {
+            color: #2563eb;
+        }
+
+        .online-links .link-item a {
+            color: #2563eb;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .online-links .link-item a:hover {
+            color: #1e3a8a;
+            text-decoration: underline;
+        }
+
+        .footer-section {
             background: #f9fafb;
-            padding: 30px;
+            padding: 25px;
             text-align: center;
             color: #6b7280;
             font-size: 0.9em;
+            border-top: 1px solid #e5e7eb;
         }
 
         @media print {
             body {
                 background: white;
+                padding: 0;
             }
-            .container {
+            .resume-container {
                 box-shadow: none;
+                max-width: 100%;
             }
-            .header {
-                background: #2563eb;
+            .header-section {
+                background: #1e3a8a !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            .section {
+                page-break-inside: avoid;
             }
         }
 
         @media (max-width: 768px) {
-            .header,
-            .content {
-                padding: 30px 25px;
+            .header-section,
+            .main-content {
+                padding: 25px 20px;
             }
 
-            .header h1 {
-                font-size: 2em;
+            .header-section h1 {
+                font-size: 1.8em;
             }
 
-            .contact-bar {
+            .contact-info {
                 gap: 15px;
             }
 
-            .item-header {
+            .timeline-header {
                 flex-direction: column;
             }
 
-            .skills-grid {
+            .skills-container {
                 grid-template-columns: 1fr;
             }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
+    <div class="resume-container">
+        <div class="header-section">
             <h1>RIZWAN ULLAH</h1>
-            <div class="title">PHP Laravel Developer</div>
-            <div class="contact-bar">
+            <div class="job-title">PHP Laravel Developer</div>
+            <div class="contact-info">
                 <div class="contact-item">
                     <i class="fas fa-envelope"></i>
                     <span>Rizwan.Ullah.Tech@gmail.com</span>
@@ -309,15 +358,15 @@
             </div>
         </div>
 
-        <div class="content">
+        <div class="main-content">
             <div class="section">
                 <h2 class="section-title">
                     <i class="fas fa-user"></i>
                     Professional Summary
                 </h2>
-                <p class="summary">
+                <div class="professional-summary">
                     Experienced PHP Laravel Developer with a diploma in software engineering from Aptech Pakistan. Currently serving as Center Academic Head at Aptech Gulshan-e-Hadeed, combining technical expertise with educational leadership to shape the next generation of developers. Proficient in web development technologies including HTML, CSS, JavaScript, PHP, and Laravel framework, with strong database management skills in MySQL and MS SQL Server.
-                </p>
+                </div>
             </div>
 
             <div class="section">
@@ -326,15 +375,15 @@
                     Professional Experience
                 </h2>
 
-                <div class="experience-item">
-                    <div class="item-header">
+                <div class="timeline-item">
+                    <div class="timeline-header">
                         <div>
-                            <div class="item-title">Center Academic Head</div>
-                            <div class="item-company">Aptech Gulshan-e-Hadeed</div>
+                            <div class="job-title-text">Center Academic Head</div>
+                            <div class="company-name">Aptech Gulshan-e-Hadeed</div>
                         </div>
-                        <div class="item-duration">September 2025 – Present</div>
+                        <div class="duration">September 2025 – Present</div>
                     </div>
-                    <div class="item-description">
+                    <div class="job-description">
                         <ul>
                             <li>Leading academic operations and curriculum development at the center</li>
                             <li>Overseeing faculty performance and student learning outcomes</li>
@@ -344,15 +393,15 @@
                     </div>
                 </div>
 
-                <div class="experience-item">
-                    <div class="item-header">
+                <div class="timeline-item">
+                    <div class="timeline-header">
                         <div>
-                            <div class="item-title">Faculty</div>
-                            <div class="item-company">Aptech Gulshan-e-Hadeed</div>
+                            <div class="job-title-text">Faculty</div>
+                            <div class="company-name">Aptech Gulshan-e-Hadeed</div>
                         </div>
-                        <div class="item-duration">August 2024 – June 2025</div>
+                        <div class="duration">August 2024 – June 2025</div>
                     </div>
-                    <div class="item-description">
+                    <div class="job-description">
                         <ul>
                             <li>Taught HTML, CSS, JavaScript, PHP, and MySQL to aspiring developers</li>
                             <li>Introduced Laravel basics including MVC structure and Blade templating</li>
@@ -362,15 +411,15 @@
                     </div>
                 </div>
 
-                <div class="experience-item">
-                    <div class="item-header">
+                <div class="timeline-item">
+                    <div class="timeline-header">
                         <div>
-                            <div class="item-title">Teaching Assistant</div>
-                            <div class="item-company">Aptech Metro Star Gate</div>
+                            <div class="job-title-text">Teaching Assistant</div>
+                            <div class="company-name">Aptech Metro Star Gate</div>
                         </div>
-                        <div class="item-duration">September 2023 – March 2024</div>
+                        <div class="duration">September 2023 – March 2024</div>
                     </div>
-                    <div class="item-description">
+                    <div class="job-description">
                         <ul>
                             <li>Assisted instructors during web development lab sessions and lectures</li>
                             <li>Helped students with HTML, CSS, JavaScript, and Figma design concepts</li>
@@ -387,15 +436,15 @@
                     Education
                 </h2>
 
-                <div class="education-item">
-                    <div class="item-header">
+                <div class="timeline-item">
+                    <div class="timeline-header">
                         <div>
-                            <div class="item-title">Diploma in Software Engineering</div>
-                            <div class="item-company">Aptech Pakistan</div>
+                            <div class="job-title-text">Diploma in Software Engineering</div>
+                            <div class="company-name">Aptech Pakistan</div>
                         </div>
-                        <div class="item-duration">2019 – 2022</div>
+                        <div class="duration">2019 – 2022</div>
                     </div>
-                    <div class="item-description">
+                    <div class="job-description">
                         Comprehensive program covering software development fundamentals, programming languages, and industry best practices. Gained hands-on experience in modern development methodologies and real-world project implementation.
                     </div>
                 </div>
@@ -407,35 +456,35 @@
                     Technical Skills
                 </h2>
 
-                <div class="skills-grid">
-                    <div class="skill-category">
+                <div class="skills-container">
+                    <div class="skill-box">
                         <h4><i class="fas fa-laptop-code"></i> Languages</h4>
-                        <div class="skill-tags">
-                            <span class="skill-tag">HTML</span>
-                            <span class="skill-tag">CSS</span>
-                            <span class="skill-tag">JavaScript</span>
-                            <span class="skill-tag">PHP</span>
-                            <span class="skill-tag">Laravel</span>
-                            <span class="skill-tag">Python</span>
+                        <div class="skill-list">
+                            <span class="skill-badge">HTML</span>
+                            <span class="skill-badge">CSS</span>
+                            <span class="skill-badge">JavaScript</span>
+                            <span class="skill-badge">PHP</span>
+                            <span class="skill-badge">Laravel</span>
+                            <span class="skill-badge">Python</span>
                         </div>
                     </div>
 
-                    <div class="skill-category">
+                    <div class="skill-box">
                         <h4><i class="fas fa-database"></i> Database</h4>
-                        <div class="skill-tags">
-                            <span class="skill-tag">MySQL</span>
-                            <span class="skill-tag">MS SQL Server</span>
+                        <div class="skill-list">
+                            <span class="skill-badge">MySQL</span>
+                            <span class="skill-badge">MS SQL Server</span>
                         </div>
                     </div>
 
-                    <div class="skill-category">
+                    <div class="skill-box">
                         <h4><i class="fas fa-tools"></i> Tools</h4>
-                        <div class="skill-tags">
-                            <span class="skill-tag">Figma</span>
-                            <span class="skill-tag">Word</span>
-                            <span class="skill-tag">Excel</span>
-                            <span class="skill-tag">PowerPoint</span>
-                            <span class="skill-tag">Git & GitHub</span>
+                        <div class="skill-list">
+                            <span class="skill-badge">Figma</span>
+                            <span class="skill-badge">Word</span>
+                            <span class="skill-badge">Excel</span>
+                            <span class="skill-badge">PowerPoint</span>
+                            <span class="skill-badge">Git & GitHub</span>
                         </div>
                     </div>
                 </div>
@@ -447,44 +496,42 @@
                     Featured Projects
                 </h2>
 
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <div class="project-title">Product Management System UI</div>
-                        <div class="project-description">
-                            A responsive and fully functional frontend-only product management system with no backend. All data is handled using the browser's localStorage. Features include create, read, update, and delete products, as well as import and export product data in CSV format and manage Avg product price, sum of product prices, and total count of products.
-                        </div>
-                        <div class="project-tech">
-                            <span class="tech-tag">HTML</span>
-                            <span class="tech-tag">CSS</span>
-                            <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">Bootstrap</span>
-                        </div>
+                <div class="project-item">
+                    <div class="project-name">Product Management System UI</div>
+                    <div class="project-desc">
+                        A responsive and fully functional frontend-only product management system with no backend. All data is handled using the browser's localStorage. Features include create, read, update, and delete products, as well as import and export product data in CSV format and manage Avg product price, sum of product prices, and total count of products.
                     </div>
-
-                    <div class="project-card">
-                        <div class="project-title">Product Management System</div>
-                        <div class="project-description">
-                            A comprehensive product management system built using PHP, MySQL, HTML, CSS, and JavaScript. Features functional CRUD operations, import/export capabilities, and modular code structure.
-                        </div>
-                        <div class="project-tech">
-                            <span class="tech-tag">PHP</span>
-                            <span class="tech-tag">MySQL</span>
-                            <span class="tech-tag">HTML</span>
-                            <span class="tech-tag">CSS</span>
-                            <span class="tech-tag">JavaScript</span>
-                        </div>
+                    <div class="tech-stack">
+                        <span class="tech-badge">HTML</span>
+                        <span class="tech-badge">CSS</span>
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">Bootstrap</span>
                     </div>
+                </div>
 
-                    <div class="project-card">
-                        <div class="project-title">Simple Calculator</div>
-                        <div class="project-description">
-                            A simple and responsive calculator built with HTML, CSS, and vanilla JavaScript. It performs basic arithmetic operations and supports both mouse and keyboard input.
-                        </div>
-                        <div class="project-tech">
-                            <span class="tech-tag">HTML</span>
-                            <span class="tech-tag">CSS</span>
-                            <span class="tech-tag">JavaScript</span>
-                        </div>
+                <div class="project-item">
+                    <div class="project-name">Product Management System</div>
+                    <div class="project-desc">
+                        A comprehensive product management system built using PHP, MySQL, HTML, CSS, and JavaScript. Features functional CRUD operations, import/export capabilities, and modular code structure.
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-badge">PHP</span>
+                        <span class="tech-badge">MySQL</span>
+                        <span class="tech-badge">HTML</span>
+                        <span class="tech-badge">CSS</span>
+                        <span class="tech-badge">JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-name">Simple Calculator</div>
+                    <div class="project-desc">
+                        A simple and responsive calculator built with HTML, CSS, and vanilla JavaScript. It performs basic arithmetic operations and supports both mouse and keyboard input.
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-badge">HTML</span>
+                        <span class="tech-badge">CSS</span>
+                        <span class="tech-badge">JavaScript</span>
                     </div>
                 </div>
             </div>
@@ -494,20 +541,20 @@
                     <i class="fas fa-link"></i>
                     Online Presence
                 </h2>
-                <div style="display: flex; gap: 30px; flex-wrap: wrap; margin-top: 10px;">
-                    <div style="color: #4b5563;">
-                        <i class="fab fa-linkedin" style="color: #2563eb; margin-right: 8px;"></i>
-                        <a href="https://www.linkedin.com/in/rizwan-ullah-356a74353" style="color: #2563eb; text-decoration: none;">linkedin.com/in/rizwan-ullah-356a74353</a>
+                <div class="online-links">
+                    <div class="link-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/rizwan-ullah-356a74353" target="_blank">linkedin.com/in/rizwan-ullah-356a74353</a>
                     </div>
-                    <div style="color: #4b5563;">
-                        <i class="fab fa-github" style="color: #2563eb; margin-right: 8px;"></i>
-                        <a href="https://github.com/Rizwan-Ullah-tech" style="color: #2563eb; text-decoration: none;">github.com/Rizwan-Ullah-tech</a>
+                    <div class="link-item">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/Rizwan-Ullah-tech" target="_blank">github.com/Rizwan-Ullah-tech</a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="footer">
+        <div class="footer-section">
             <p>This resume is available for download at <strong>rizwan-ullah-tech.github.io/My-Portfolio/</strong></p>
         </div>
     </div>
