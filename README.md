@@ -165,7 +165,6 @@ If you want to use live reloading or the Vite dev server:
 My-Portfolio/
 ├── images/
 │   └── Profile.png                # Profile picture
-├── attached_assets/              # Additional assets
 ├── index.html                    # Main portfolio page
 ├── resume.html                   # Professional HTML resume
 ├── Resume.pdf                    # PDF version of resume
