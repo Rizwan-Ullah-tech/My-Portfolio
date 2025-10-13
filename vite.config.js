@@ -8,4 +8,5 @@ export default defineConfig({
     port: 5000,
     hmr: true, // Change this line to false disable auto-refreshing.
   }
+  
 })

@@ -4,6 +4,7 @@
 
 (function() {
     'use strict';
+    
 
     // DOM Elements
     const navbar = document.getElementById('navbar');
