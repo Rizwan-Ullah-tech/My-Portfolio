@@ -129,6 +129,8 @@ This is my personal developer portfolio showcasing my journey as a PHP Laravel D
 
 ## 🚀 Installation & Setup
 
+If you want to use live reloading or the Vite dev server:
+
 ### Prerequisites
 - Node.js (v14 or higher)
 - Modern web browser
@@ -169,8 +171,7 @@ My-Portfolio/
 ├── app.js                        # JavaScript functionality
 ├── package.json                  # Project dependencies
 ├── vite.config.js               # Vite configuration (port 5000)
-├── README.md                     # Project documentation
-└── replit.md                    # Replit-specific documentation
+└── README.md                     # Project documentation
 ```
 
 ## 📄 Resume
@@ -228,3 +229,8 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 **Built with ❤️ by Rizwan Ullah**
+
+```
+
+
+```
