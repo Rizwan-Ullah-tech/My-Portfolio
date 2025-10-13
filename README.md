@@ -1,11 +1,10 @@
-
-# Rizwan Ullah - Developer Portfolio
+# Rizwan Ullah - PHP Laravel Developer Portfolio
 
 A modern, responsive developer portfolio website showcasing my skills, education, professional experience, and projects. Built with HTML, CSS, JavaScript, and Tailwind CSS.
 
 ## 🚀 Live Preview
 
-View the live portfolio: https://rizwan-ullah-tech.github.io/My-Portfolio/
+View the live portfolio: [https://rizwan-ullah-tech.github.io/My-Portfolio/](https://rizwan-ullah-tech.github.io/My-Portfolio/)
 
 ## 📋 Table of Contents
 
@@ -14,29 +13,28 @@ View the live portfolio: https://rizwan-ullah-tech.github.io/My-Portfolio/
 - [Technologies Used](#technologies-used)
 - [Sections](#sections)
 - [Installation & Setup](#installation--setup)
-- [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Contact Form](#contact-form)
+- [Resume](#resume)
 - [Customization](#customization)
-- [Performance](#performance)
-- [Contributing](#contributing)
+- [Contact](#contact)
 - [License](#license)
 
 ## 🎯 About
 
-This is my personal developer portfolio showcasing my journey as a self-taught Front-End Developer and aspiring DevOps Engineer. The portfolio highlights my education from Aptech Pakistan, my teaching experience at Aptech institutions, technical skills, and featured projects.
+This is my personal developer portfolio showcasing my journey as a PHP Laravel Developer and Center Academic Head at Aptech Gulshan-e-Hadeed. The portfolio highlights my education from Aptech Pakistan, my professional teaching and leadership experience, technical skills, and featured projects.
 
 ## ✨ Features
 
 - **Fully Responsive Design** - Works seamlessly on desktop, tablet, and mobile devices
 - **Dark/Light Theme Toggle** - Switch between dark and light modes with smooth transitions
 - **Modern UI/UX** - Clean, professional design with smooth animations
-- **Interactive Contact Form** - Functional contact form with validation (ready for backend integration)
-- **Project Showcase** - Featured projects with live demos and GitHub links
-- **Professional Experience** - Detailed work experience and achievements section
-- **Skills & Technologies** - Organized skill categories with visual representations
-- **View/Print Resume** - View resume as a web page with a print/download button
-- **Social Media Integration** - Links to LinkedIn, GitHub, YouTube, and Instagram
+- **Interactive Contact Form** - Functional contact form with validation
+- **Project Showcase** - Featured projects with descriptions and tech stacks
+- **Professional Experience Timeline** - Detailed work experience with achievements
+- **Skills & Technologies** - Organized skill categories (Languages, Database, Tools)
+- **Professional HTML Resume** - View and download resume in web format or PDF
+- **Resume Download Button** - One-click PDF download from portfolio
+- **Social Media Integration** - Links to LinkedIn, GitHub, and Portfolio
 - **Performance Optimized** - Fast loading with optimized assets and animations
 - **SEO Friendly** - Proper meta tags and semantic HTML structure
 - **Accessibility** - ARIA labels and keyboard navigation support
@@ -50,66 +48,97 @@ This is my personal developer portfolio showcasing my journey as a self-taught F
 - **Tailwind CSS** - Utility-first CSS framework for rapid styling
 
 ### Libraries & Tools
-- **Font Awesome** - Icon library for consistent iconography
+- **Font Awesome 6.5.0** - Icon library for consistent iconography
 - **AOS (Animate On Scroll)** - Smooth scroll animations
 - **Google Fonts (Inter)** - Modern typography
-- **Vite** - Fast build tool and development server
+- **Vite 5.4.8** - Fast build tool and development server
 
 ### Development Environment
 - **Git & GitHub** - Version control and code repository
+- **GitHub Pages** - Static site hosting
 
 ## 📄 Sections
 
 ### 1. **Home/Hero Section**
 - Professional introduction with profile picture
-- Contact information and location (Karachi, Pakistan)
-- Call-to-action buttons (Contact, Projects, View Resume)
-- Social media links with hover animations
-- Responsive design with floating elements
+- Current role: PHP Laravel Developer
+- Contact information (Email, Phone, Location: Karachi, Pakistan)
+- Call-to-action buttons (Get In Touch, View Projects, View Resume, Download PDF)
+- Social media links (LinkedIn, GitHub) with hover animations
+- Responsive design with floating elements and animations
 
 ### 2. **Education**
 - **Diploma in Software Engineering** from Aptech Pakistan (2019-2022)
-- Comprehensive program details and achievements
+- Comprehensive program covering software development fundamentals
 - Modern card design with gradient backgrounds
+- Hands-on experience in modern development methodologies
 
 ### 3. **Professional Experience**
+- **Center Academic Head at Aptech Gulshan-e-Hadeed** (September 2025 – Present)
+  - Leading academic operations and curriculum development
+  - Overseeing faculty performance and student learning outcomes
+  - Managing course delivery and quality education standards
+  - Coordinating with stakeholders to enhance learning experience
+
 - **Faculty at Aptech Gulshan-e-Hadeed** (August 2024 – June 2025)
   - Teaching HTML, CSS, JavaScript, PHP, MySQL, and Laravel basics
+  - Introduced MVC structure and Blade templating
   - Student mentorship and practical session guidance
+
 - **Teaching Assistant at Aptech Metro Star Gate** (September 2023 – March 2024)
   - Assisted instructors during web development sessions
-  - Helped students with assignments, projects, and core programming concepts
+  - Helped students with HTML, CSS, JavaScript, and Figma design concepts
+  - Provided hands-on support for assignments and projects
 
 ### 4. **Skills & Technologies**
-- **Confident Skills**: HTML, CSS, JavaScript
-- **Currently Improving**: PHP, MySQL, Laravel 11, Python, WordPress, Figma
-- **Tools & Software**: VS Code, XAMPP, Git & GitHub, MS Office Suite
-- Interactive hover effects and color-coded categories
+
+**Languages**
+- HTML, CSS, JavaScript
+- PHP, Laravel
+- Python
+
+**Database**
+- MySQL
+- MS SQL Server
+
+**Tools**
+- Figma, Word, Excel, PowerPoint
+- Git & GitHub
 
 ### 5. **Featured Projects**
-- **Product Management System UI** - Frontend-only system with localStorage
-- **Full-Stack Product Management System** - PHP/MySQL backend (In Progress)
-- **Simple Calculator** - Basic arithmetic operations with responsive design
-- Live demo links and GitHub repositories
+- **Product Management System UI** 
+  - Frontend-only system with localStorage
+  - CRUD operations, CSV import/export
+  - Technologies: HTML, CSS, JavaScript, Bootstrap
+
+- **Product Management System** 
+  - Full-stack PHP/MySQL application
+  - Functional CRUD operations and modular code
+  - Technologies: PHP, MySQL, HTML, CSS, JavaScript
+
+- **Simple Calculator** 
+  - Basic arithmetic operations with responsive design
+  - Mouse and keyboard input support
+  - Technologies: HTML, CSS, JavaScript
 
 ### 6. **Contact**
 - Contact information with icons and animations
-- Interactive contact form with validation (currently inactive)
-- Social media links with hover effects
+- Interactive contact form with validation
+- Social media links (LinkedIn, GitHub)
 - Location and contact details
 
 ## 🚀 Installation & Setup
 
 ### Prerequisites
-- Node.js (for Vite development server)
+- Node.js (v14 or higher)
 - Modern web browser
 
 ### Local Development
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Rizwan-Ullah-tech/portfolio.git
-   cd portfolio
+   git clone https://github.com/Rizwan-Ullah-tech/My-Portfolio.git
+   cd My-Portfolio
    ```
 
 2. **Install dependencies**
@@ -124,48 +153,78 @@ This is my personal developer portfolio showcasing my journey as a self-taught F
 
 4. **Open in browser**
    ```
-   http://localhost:5173
+   http://localhost:5000
    ```
 
 ## 📁 Project Structure
 
 ```
-portfolio/
+My-Portfolio/
 ├── images/
-│   └── Profile.jpg              # Profile picture
-├── index.html                   # Main HTML file
-├── app.js                      # JavaScript functionality
-├── package.json               # Project dependencies
-├── vite.config.js            # Vite configuration
-└── README.md                 # Project documentation
+│   └── Profile.png                # Profile picture
+├── attached_assets/              # Additional assets
+├── index.html                    # Main portfolio page
+├── resume.html                   # Professional HTML resume
+├── Resume.pdf                    # PDF version of resume
+├── app.js                        # JavaScript functionality
+├── package.json                  # Project dependencies
+├── vite.config.js               # Vite configuration (port 5000)
+├── README.md                     # Project documentation
+└── replit.md                    # Replit-specific documentation
 ```
 
-## 📧 Contact Form
+## 📄 Resume
 
-The contact form is currently inactive but includes:
+### HTML Resume (resume.html)
+- **Professional Layout**: Clean, modern design with blue color scheme
+- **Sections**: Professional Summary, Experience, Education, Skills, Projects, Online Presence
+- **Download Button**: Top-right floating button for instant PDF download
+- **Print Optimized**: Special print styles for professional PDF output
+- **Responsive**: Works on all devices
 
-### Form Features
-- Real-time validation for all fields
-- Error handling and success messages
-- Responsive design with smooth animations
-- Accessibility features
+### PDF Resume (Resume.pdf)
+- Available for direct download from portfolio homepage
+- Print-optimized formatting
+- Professional 2-page layout
+- Download filename: "Rizwan-Ullah-Resume.pdf"
 
-### To Activate
-1. Sign up for a form handling service (Formspree, Netlify Forms, etc.)
-2. Update the form action in `index.html`
-3. Configure any necessary headers or settings
+### How to Update Resume
+1. Edit `resume.html` for content changes
+2. Generate new PDF by clicking "Download PDF" button on resume page
+3. Enable "Background graphics" in print dialog for proper colors
+4. Save as PDF and replace `Resume.pdf`
 
 ## 🎨 Customization
 
 ### Updating Personal Information
-1. Replace profile picture in `images/Profile.jpg`
-2. Update contact information in the hero section
-3. Modify social media links throughout the site
-
-### Updating Resume
-- The resume is now an HTML page (`resume.html`). To update your resume, edit this file.
-- Users can print or save the resume as PDF using the print/download button at the top right of the page.
+1. Replace profile picture: `images/Profile.png`
+2. Update contact information in hero section of `index.html`
+3. Modify social media links (LinkedIn, GitHub, Portfolio)
+4. Update resume content in `resume.html`
 
 ### Adding New Projects
-1. Update the projects section in `index.html`
-2. Add project screenshots to `images/`
+1. Edit the projects section in `index.html`
+2. Update featured projects in `resume.html`
+3. Add project details with tech stack badges
+
+### Changing Theme Colors
+1. Modify Tailwind config in `index.html` (primary colors)
+2. Update CSS variables for custom styling
+3. Adjust dark mode colors in theme configuration
+
+## 📧 Contact
+
+- **Email**: Rizwan.Ullah.Tech@gmail.com
+- **Phone**: +92 340 2138959
+- **Location**: Karachi, Pakistan
+- **LinkedIn**: [linkedin.com/in/rizwan-ullah-356a74353](https://www.linkedin.com/in/rizwan-ullah-356a74353)
+- **GitHub**: [github.com/Rizwan-Ullah-tech](https://github.com/Rizwan-Ullah-tech)
+- **Portfolio**: [rizwan-ullah-tech.github.io/My-Portfolio/](https://rizwan-ullah-tech.github.io/My-Portfolio/)
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+**Built with ❤️ by Rizwan Ullah**
