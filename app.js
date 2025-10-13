@@ -204,7 +204,9 @@
                 }
             });
 
-            if (response.ok) {
+            const result = await response.json();
+
+            if (response.ok && result.success) {
                 showFormStatus('success', 'Message sent successfully! I\'ll get back to you soon.');
                 contactForm.reset();
 
@@ -212,8 +214,7 @@
                 const inputs = contactForm.querySelectorAll('input, textarea');
                 inputs.forEach(input => clearFieldError(input));
             } else {
-                const result = await response.json();
-                showFormStatus('error', result.errors ? result.errors.map(error => error.message).join(', ') : 'Failed to send message. Please try again.');
+                showFormStatus('error', result.message || 'Failed to send message. Please try again.');
             }
         } catch (error) {
             console.error('Form submission error:', error);
