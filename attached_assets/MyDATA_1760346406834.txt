@@ -1,0 +1,40 @@
+Name: Rizwan Ullah
+
+Email: Rizwan.Ullah.Tech@gmail.com
+
+Number: +923402138959
+
+Designation: Php laravel Developer
+
+About me: add as you see fit
+
+linkedin: www.linkedin.com/in/rizwan-ullah-356a74353
+
+Github: https://github.com/Rizwan-Ullah-tech
+
+Education: 
+Diploma in Software Engineering
+Aptech Pakistan
+Duration: [2019 - 2022]
+
+Experience:
+Teaching Assistant
+Aptech Metro Star Gate
+Duration: September 2023 – March 2024
+Faculty
+Aptech Gulshan-e-Hadeed
+Duration: August 2024 – June 2025
+Center Acedemic Head
+Aptech Gulshan-e-Hadeed
+Duration: September 2025 – present
+
+Skills: HTML, CSS, JAVASCRIPT, PHP, LARAVEL, MYSQL, MSSQLSERVER, PYTHON, FIGMA, WORD, EXCEL, POWERPOINT, GIT & GITHUB
+NOTE: Set these skils according to what are these like language, database, tools
+
+projects : as they are dont change anthing in the projects 
+
+remove youtube and instagram
+
+
+
+
